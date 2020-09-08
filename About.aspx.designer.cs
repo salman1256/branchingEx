@@ -11,7 +11,7 @@ namespace WebToExplainBranching
 {
 
 
-    public partial class Index
+    public partial class About
     {
 
         /// <summary>

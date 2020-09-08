@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="WebToExplainBranching.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="WebToExplainBranching.About" %>
 
 <%@ Register src="Mymenu.ascx" tagname="Mymenu" tagprefix="uc1" %>
 
@@ -12,29 +12,18 @@
             width: 100%;
         }
     </style>
-    <link href="OurStyle.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td colspan="3">
+                    <td>
                         <uc1:Mymenu ID="Mymenu1" runat="server" />
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="3"><h1>Home Page </h1></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td><h2>About Page</h2></td>
                 </tr>
             </table>
         </div>
